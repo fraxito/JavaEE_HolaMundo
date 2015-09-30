@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+       
+       <h:outputStylesheet name="bootstrap.min.css" library="css"/>
+       <h:outputStylesheet name="bootstrap-theme.min.css" library="css"/>
+       
+       
+        
+    </h:head>
+    <h:body>
+        <style>
+            .fondo{
+                background-color : #E0E033;
+            }
+        </style>
+        Hola Mundo!
+        <h1>Prueba JSF</h1>
+        <fieldset>
+            <legend>Probamos que JSF está bien instalado y las etiquetas se renderizan correctamente</legend>
+            <h:form>
+                Si aquí debajo ves un textfield y un botón es que vas por el buen camino.<br/><br/>
+                Texto: <h:inputText/><br/>
+                Botón: <h:commandButton styleClass="fondo" value="Click Me (aunque no hace nada)"/>
+            </h:form>
+        </fieldset>
+
+    </h:body>
+</html>
+
